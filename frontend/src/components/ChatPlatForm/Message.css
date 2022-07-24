@@ -1,0 +1,40 @@
+.msg-info-name u{
+    text-decoration: none;
+    color: rgb(74, 5, 138);
+   
+
+}
+.msg{
+    padding: .7rem;
+    clear: both;
+    margin-bottom: .5rem;
+    word-wrap: break-word;
+    max-width:75%;
+  
+    
+}
+
+.left-msg{
+   
+    border-radius: 10px 10px 10px 0;
+    background-color: rgb(255, 255, 255);
+    float: left;
+
+   
+  
+}
+.right-msg{
+   
+    border-radius: 10px 10px 0px 10px;
+    background-color: #bedba8;
+    float: right;
+  
+}
+
+.msg-time{
+    color: #757575;
+    float: right;
+    font-size: .9rem;
+    margin-top: 7px;
+}
+

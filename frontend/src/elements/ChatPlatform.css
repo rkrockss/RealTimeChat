@@ -1,0 +1,105 @@
+.msger{
+    display: flex;
+    flex-direction: column;
+    background-color:  #fff6f6;
+    width: 60%;
+    border: black 1px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height:95%;
+    padding:.5rem;
+    border-radius: 25px;
+}
+
+.msger-header{
+    background-color: #075E54;
+    color: rgb(255, 255, 255);
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  
+}
+.msger-header-title{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+button a{
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(0, 70, 3);
+}
+
+
+
+/* .ck{
+    background-color: blue;
+}
+.ck1{
+    background-color: aqua;
+}
+
+ */
+.scroll{
+    width: 100%;
+    height: 75vh;
+    background-color: #e0d8cf;
+    margin: .5rem 0;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    
+}
+
+.scroll-black{
+    width: 100%;
+    height: 75vh;
+    background-color: #3a3a3a;
+    margin: .5rem 0;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    
+
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+
+    .msger{
+    
+        width: 80%;
+     
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+
+
+    .msger{
+    
+        width: 90%;
+     
+    }
+}
